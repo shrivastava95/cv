@@ -5,8 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>grindd.</title>
+
+        <style>
+            body {
+                background-color: indigo;
+            }
+        </style>
     </head>
-    <body>
+    <body style="background-color: indigo;">
         <table cellspacing="200">
             <tr>
                 <td>
@@ -14,7 +20,7 @@
                 </td>
                 <td>
                     <h1>Ishaan Shrivastava</h1>
-                    <p>sophomore at indian institute of technology, jodhpur</p>
+                    <p>sophomore at <strong>indian institute of technology, jodhpur</strong></p>
                 </td>
             </tr>
         </table>
@@ -74,5 +80,12 @@
         </table>
         <hr>
         <p><a href="contact.html">contact me</a></p>
+
+
+        <script>
+            function changeColorTest(x) {
+                document.getElementById(x).style.background = "grey";
+            }
+        </script>
     </body>
 </html>
