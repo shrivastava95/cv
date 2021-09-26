@@ -1,0 +1,21 @@
+body {
+    background-color: indigo;
+    color: orange;
+}
+
+a {
+    color: orange;
+}
+
+hr {
+    border-style:dotted;
+    border-width: 7px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    width: 6%;
+}
+ul {
+    margin: 0px;
+    padding: 0px
+}
